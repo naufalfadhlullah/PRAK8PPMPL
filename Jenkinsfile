@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Rizkiblack/Praktikum8.git'
+                git branch: 'main', url: 'https://github.com/naufalfadhlullah/PRAK8PPMPL.git'
             }
         }
         stage('Install Dependencies') {
